@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
-import java from "../assets/Java.png";
-import python from "../assets/Python.png";
-import Html from "../assets/Html.png";
-import Css from "../assets/CSS.png";
-import tailwindCss from "../assets/Tailwind.png";
-import react from "../assets/React.png";
-import git from "../assets/GitSkill.png";
-import github from "../assets/Git.png";
-import VisualStudio from "../assets/VisualStudio.png";
-import Figma from "../assets/Figma.png";
-import Canva from "../assets/Canva.png";
-import sql from "../assets/SQL.png";
-import Node from "../assets/Node.png";
+import java from "../assets/Skills/Java.png";
+import python from "../assets/Skills/Python.png";
+import Html from "../assets/Skills/Html.png";
+import Css from "../assets/Skills/CSS.png";
+import tailwindCss from "../assets/Skills/Tailwind.png";
+import react from "../assets/Skills/React.png";
+import git from "../assets/Skills/GitSkill.png";
+import github from "../assets/Skills/Git.png";
+import VisualStudio from "../assets/Skills/VisualStudio.png";
+import Figma from "../assets/Skills/Figma.png";
+import Canva from "../assets/Skills/Canva.png";
+import sql from "../assets/Skills/SQL.png";
+import Node from "../assets/Skills/Node.png";
 
 function Skills() {
   const [activeTab, setActiveTab] = useState('frontend');
@@ -131,4 +131,4 @@ function Skills() {
     </div>
   );
 }
-
+export default Skills

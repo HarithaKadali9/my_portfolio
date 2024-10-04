@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] rounded-full overflow-hidden'>
+      <div className='col-span-1 my-auto mx-auto w-[300px] h-auto lg:w-[400px] rounded-full overflow-hidden animate-pulse'>
         <img src={studying} alt='My image' className='w-full h-auto rounded-full' />
       </div>
     </div>

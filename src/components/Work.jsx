@@ -28,7 +28,10 @@ const Work = () => {
         {
             title: 'Face Recognition Attendance System',
             image: Attendance,
-            description: 'The Face Recognition Attendance System is an automated application that revolutionizes attendance tracking by capturing the presence of an entire class in a single snapshot. By employing advanced face recognition algorithms and leveraging high-resolution cameras, this system significantly enhances the efficiency and accuracy of attendance management. Unlike traditional paper-and-pen methods, which are prone to proxy attendance, this innovative solution minimizes time complexity and ensures that attendance is recorded securely and reliably. Built using Python, Flask, and TensorFlow, the system not only streamlines the attendance process but also provides a modern alternative to outdated practices, making it a valuable tool for educational institutions.',
+            point1: 'The Face Recognition Attendance System is an automated application that revolutionizes attendance tracking by capturing the presence of an entire class in a single snapshot.',
+            point2: 'By employing advanced face recognition algorithms and leveraging high-resolution cameras, this system significantly enhances the efficiency and accuracy of attendance management.',
+            point3: 'Unlike traditional paper-and-pen methods, which are prone to proxy attendance, this innovative solution minimizes time complexity and ensures that attendance is recorded securely and reliably.',
+            point4: 'Built using Python, Flask, and TensorFlow, the system not only streamlines the attendance process but also provides a modern alternative to outdated practices, making it a valuable tool for educational institutions.',
             skills: 'Python, Face Recognition Algorithms, Selenium, Flask, TensorFlow',
             githubLink: 'https://github.com/HarithaKadali9/face-recognition-attendance-system',
             liveLink: 'https://face-recognition-attendance-system.netlify.app/', // Update with the live link if available
@@ -36,7 +39,10 @@ const Work = () => {
         {
             title: 'EatEase',
             image: EatEase,
-            description: 'EatEase is a food application that is beautifully responsive across various screens, providing users with a seamless experience whether on mobile, tablet, or desktop. It allows users to effortlessly browse through a wide selection of food items from local restaurants and cuisines, making it easy to satisfy their cravings anytime, anywhere. With an intuitive interface, users can quickly search for specific dishes, view detailed descriptions, and place orders with just a few taps. The application also features personalized recommendations based on individual tastes, enhancing the overall dining experience. By integrating real-time order tracking, EatEase ensures that users stay informed about their deliveries, making it the perfect companion for food enthusiasts.',
+            point1: 'EatEase is a food application that is beautifully responsive across various screens, providing users with a seamless experience whether on mobile, tablet, or desktop.',
+            point2: 'It allows users to effortlessly browse through a wide selection of food items from local restaurants and cuisines, making it easy to satisfy their cravings anytime, anywhere.',
+            point3: 'With an intuitive interface, users can quickly search for specific dishes, view detailed descriptions, and place orders with just a few taps. The application also features personalized recommendations based on individual tastes, enhancing the overall dining experience.',
+            point4: 'By integrating real-time order tracking, EatEase ensures that users stay informed about their deliveries, making it the perfect companion for food enthusiasts.',
             skills:'React.js, TailwindCss',
             githubLink: 'https://github.com/HarithaKadali9/EatEase', // Update with the GitHub link if available
             liveLink: 'https://react-eatease.netlify.app/', // Update with the live link if available
@@ -44,7 +50,10 @@ const Work = () => {
         {
             title: 'Text Translator',
             image: Translator,
-            description: 'This is a simple Text Translator web application built using HTML, JavaScript, and CSS, which utilizes the MyMemory API to translate text into various languages. The application features a user-friendly interface where users can input text, select a target language, and instantly receive the translation. In addition to translating, it provides a copy-to-clipboard feature for easy access to the translated text and a text-to-speech functionality that reads out the translated result aloud, enhancing user experience. This translator is ideal for anyone looking to translate text quickly and efficiently with just a few clicks.',
+            point1: 'This is a simple Text Translator web application built using HTML, JavaScript, and CSS, which utilizes the MyMemory API to translate text into various languages.',
+            point2: 'The application features a user-friendly interface where users can input text, select a target language, and instantly receive the translation.',
+            point3: 'In addition to translating, it provides a copy-to-clipboard feature for easy access to the translated text and a text-to-speech functionality that reads out the translated result aloud, enhancing user experience.',
+            point4: 'This translator is ideal for anyone looking to translate text quickly and efficiently with just a few clicks.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/Translator', // Update with the GitHub link if available
             liveLink: 'https://text-translator-js.netlify.app/', // Update with the live link if available
@@ -52,7 +61,10 @@ const Work = () => {
         {
             title: 'Calculator',
             image: Calculator,
-            description: 'The Calculator App is an intuitive and visually appealing web application built with HTML, CSS, and JavaScript, designed for seamless arithmetic calculations. It features a user-friendly interface that allows users to perform basic operations like addition, subtraction, multiplication, and division with just a click. The app includes a display area that shows the current input and results, providing real-time feedback for an efficient calculation experience. Additionally, users can quickly clear their input or start a new calculation with a dedicated reset button. With its responsive design, the Calculator App is accessible on various devices, making it a convenient tool for quick math tasks at home, school, or work.',
+            point1: 'The Calculator App is an intuitive and visually appealing web application built with HTML, CSS, and JavaScript, designed for seamless arithmetic calculations.',
+            point2: 'It features a user-friendly interface that allows users to perform basic operations like addition, subtraction, multiplication, and division with just a click.',
+            point3: 'The app includes a display area that shows the current input and results, providing real-time feedback for an efficient calculation experience.',
+            point4: 'Additionally, users can quickly clear their input or start a new calculation with a dedicated reset button. With its responsive design, the Calculator App is accessible on various devices, making it a convenient tool for quick math tasks at home, school, or work.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/OIBSIP_Taskno1', // Update with the GitHub link if available
             liveLink: 'https://harithacalculator.netlify.app/', // Update with the live link if available
@@ -60,7 +72,10 @@ const Work = () => {
         {
             title: 'To do List',
             image: todolist,
-            description: 'The Todo List Project is a simple yet effective web application created using HTML, CSS, and JavaScript, designed to help users organize and manage their daily tasks efficiently. With a clean and intuitive interface, users can easily add, edit, and delete tasks, allowing for seamless task management. The app features a responsive design that ensures a smooth experience across different devices, making it accessible whether on a desktop or mobile. Users can mark tasks as complete, providing a visual representation of their progress and enhancing productivity. This project not only demonstrates the practical application of core web technologies but also offers a valuable tool for individuals seeking to streamline their daily routines.',
+            point1: 'The Todo List Project is a simple yet effective web application created using HTML, CSS, and JavaScript, designed to help users organize and manage their daily tasks efficiently.',
+            point2: 'With a clean and intuitive interface, users can easily add, edit, and delete tasks, allowing for seamless task management.',
+            point3: 'The app features a responsive design that ensures a smooth experience across different devices, making it accessible whether on a desktop or mobile. Users can mark tasks as complete, providing a visual representation of their progress and enhancing productivity.',
+            point4: 'This project not only demonstrates the practical application of core web technologies but also offers a valuable tool for individuals seeking to streamline their daily routines.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/OIBSIP_Taskno3', // Update with the GitHub link if available
             liveLink: 'https://haritha-to-do-list.netlify.app/', // Update with the live link if available
@@ -68,7 +83,10 @@ const Work = () => {
         {
             title: 'Chat Application',
             image: chatapplication,
-            description: 'The Console Chat Application is a robust Java-based communication platform that allows multiple clients to connect and interact in real-time. Utilizing socket programming, the server efficiently manages client connections using threads, enabling seamless message broadcasting to all participants. Users can join the chat by providing a username, and their messages are displayed to everyone in the chat room. The application features a straightforward command-line interface, making it accessible for users to engage in discussions without the need for complex setups. By leveraging Java’s networking capabilities, this project exemplifies fundamental concepts of concurrent programming and network communication, providing a practical solution for online chatting.',
+            point1: 'The Console Chat Application is a robust Java-based communication platform that allows multiple clients to connect and interact in real-time.',
+            point2: 'Utilizing socket programming, the server efficiently manages client connections using threads, enabling seamless message broadcasting to all participants. Users can join the chat by providing a username, and their messages are displayed to everyone in the chat room. ',
+            point3: 'The application features a straightforward command-line interface, making it accessible for users to engage in discussions without the need for complex setups.',
+            point4: 'By leveraging Java’s networking capabilities, this project exemplifies fundamental concepts of concurrent programming and network communication, providing a practical solution for online chatting.',
             skills: 'Java',
             githubLink: 'https://github.com/HarithaKadali9/ChatApplication', // Update with the GitHub link if available
             liveLink: '#', // Update with the live link if available
@@ -112,7 +130,7 @@ const Work = () => {
             {/* Modal for project details */}
             {isOpen && currentProject && (
     <div className='fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-80'>
-        <div className='bg-black p-4 sm:p-6 md:p-8 rounded-lg relative w-11/12 sm:w-3/4 md:w-1/2 lg:w-2/5 xl:w-1/3'>
+        <div className='bg-black p-4 sm:p-6 md:p-8 rounded-lg relative sm:w-3/4 md:w-1/2 lg:w-4/5 xl:w-3/5'>
             <AiOutlineClose 
                 size={30} 
                 className='absolute top-4 right-4 cursor-pointer' 
@@ -120,8 +138,13 @@ const Work = () => {
             />
             <h2 className='text-xl sm:text-2xl font-bold mb-2'>{currentProject.title}</h2>
             <p className='text-lg sm:text-xl font-bold mb-2'>Skills Used:</p>
-            <p className='text-base sm:text-lg mb-4'>{currentProject.skills}</p>
-            <p className='mb-4 text-justify text-base sm:text-lg'>{currentProject.description}</p>
+            <p className='text-base sm:text-lg mb-4'>{currentProject.skills}</p><br/>
+            <ol>
+                <li className='mb-4 text-justify text-base sm:text-lg'>{currentProject.point1}</li>
+                <li className='mb-4 text-justify text-base sm:text-lg'>{currentProject.point2}</li>
+                <li className='mb-4 text-justify text-base sm:text-lg'>{currentProject.point3}</li>
+                <li className='mb-4 text-justify text-base sm:text-lg'>{currentProject.point4}</li>
+            </ol>
             <div className='flex flex-col sm:flex-row'>
                 <a href={currentProject.githubLink} target='_blank' rel="noopener noreferrer">
                     <button className='border border-white hover:bg-white hover:text-black text-white rounded-lg px-4 py-2 mb-2 sm:mr-2 sm:mb-0'>GitHub</button>

@@ -1,8 +1,5 @@
 import React from 'react'
 import aboutImage from "../assets/aboutImage.png"
-import NavIcon1 from "../assets/nav-icon1.svg"
-import NavIcon2 from "../assets/nav-icon2.svg"
-import NavIcon3 from "../assets/nav-icon3.svg"
 const About = () => {
   return (
     <div className='text-white max-w-[1200px] mx-auto my-12' id='about'>
