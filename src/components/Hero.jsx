@@ -9,7 +9,7 @@ const Hero = () => {
   };
 
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black'>
+    <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-[1200px] md:h-[70vh] mx-auto py-8 bg-black h-full w-full'>
       <div className='col-span-2 px-5 my-auto'>
         <h1 className='text-white text-2xl sm:text-4xl lg:text-8xl '>
           <span className='text-gray-400'>
@@ -52,8 +52,8 @@ const Hero = () => {
         </div>
 
         <div className='my-8'>
-          <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white'>Download CV</a>
-          <a href="#contact" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-gradient-to-br from-orange-500 to-pink-500 text-white hover:border-none'>Contact</a>
+          <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-white hover:text-black text-white'>Download CV</a>
+          <a href="#contact" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-white hover:text-black text-white hover:border-none'>Contact</a>
         </div>
       </div>
 

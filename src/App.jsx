@@ -8,6 +8,8 @@ import Work from './components/Work.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
 import Coding from './components/Coding.jsx'
+import Education from './components/Education.jsx'
+import Internships from './components/Internships.jsx'
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           {/* Other routes */}
         </Routes>
         <About />
+        <Education/>
+        <Internships/>
         <Skills />
         <Work />
         <Contact />
