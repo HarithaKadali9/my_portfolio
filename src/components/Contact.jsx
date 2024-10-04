@@ -3,7 +3,7 @@ import ReactPlayer from 'react-player';
 
 const Contact = () => {
   return (
-    <div className='max-w-[1200px] mx-auto sm:py-20 p-5' id='contact'>
+    <div className='max-w-[1200px] mx-auto sm:py-20 p-5 z-0' id='contact'>
       <div className='relative w-full h-screen'>
         <ReactPlayer
           url='src/assets/globe.mp4' // Use the imported video
@@ -16,11 +16,11 @@ const Contact = () => {
           style={{ objectFit: 'cover', zIndex: -1 }} // Set z-index to -1 for the video
         />
         {/* Form placed inside the same div as the video */}
-        <div className='relative z-10 text-center'> {/* z-10 to overlay text above video */}
+        <div className='relative z-10 text-center'> {/* Keep z-10 to overlay text above video */}
           <h2 className='text-4xl font-bold leading-tight'>Contact Me</h2>
           <div className='max-w-[800px] mx-auto'>
-            <div className='mt-6 ] rounded-xl p-10'>
-              <form action="https://getform.io/f/zbq01Gep" method="POST">
+            <div className='mt-6 rounded-xl p-10'>
+              <form action="https://getform.io/f/byvplyla" method="POST">
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-4'>
                   <div>
                     <div className='mt-2.5 relative'>

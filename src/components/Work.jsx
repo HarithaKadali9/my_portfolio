@@ -31,7 +31,7 @@ const Work = () => {
             description: 'The Face Recognition Attendance System is an automated application that revolutionizes attendance tracking by capturing the presence of an entire class in a single snapshot. By employing advanced face recognition algorithms and leveraging high-resolution cameras, this system significantly enhances the efficiency and accuracy of attendance management. Unlike traditional paper-and-pen methods, which are prone to proxy attendance, this innovative solution minimizes time complexity and ensures that attendance is recorded securely and reliably. Built using Python, Flask, and TensorFlow, the system not only streamlines the attendance process but also provides a modern alternative to outdated practices, making it a valuable tool for educational institutions.',
             skills: 'Python, Face Recognition Algorithms, Selenium, Flask, TensorFlow',
             githubLink: 'https://github.com/HarithaKadali9/face-recognition-attendance-system',
-            liveLink: '#', // Update with the live link if available
+            liveLink: 'https://face-recognition-attendance-system.netlify.app/', // Update with the live link if available
         },
         {
             title: 'EatEase',
@@ -47,7 +47,7 @@ const Work = () => {
             description: 'This is a simple Text Translator web application built using HTML, JavaScript, and CSS, which utilizes the MyMemory API to translate text into various languages. The application features a user-friendly interface where users can input text, select a target language, and instantly receive the translation. In addition to translating, it provides a copy-to-clipboard feature for easy access to the translated text and a text-to-speech functionality that reads out the translated result aloud, enhancing user experience. This translator is ideal for anyone looking to translate text quickly and efficiently with just a few clicks.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/Translator', // Update with the GitHub link if available
-            liveLink: '/', // Update with the live link if available
+            liveLink: 'https://text-translator-js.netlify.app/', // Update with the live link if available
         },
         {
             title: 'Calculator',
@@ -55,7 +55,7 @@ const Work = () => {
             description: 'The Calculator App is an intuitive and visually appealing web application built with HTML, CSS, and JavaScript, designed for seamless arithmetic calculations. It features a user-friendly interface that allows users to perform basic operations like addition, subtraction, multiplication, and division with just a click. The app includes a display area that shows the current input and results, providing real-time feedback for an efficient calculation experience. Additionally, users can quickly clear their input or start a new calculation with a dedicated reset button. With its responsive design, the Calculator App is accessible on various devices, making it a convenient tool for quick math tasks at home, school, or work.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/OIBSIP_Taskno1', // Update with the GitHub link if available
-            liveLink: '/', // Update with the live link if available
+            liveLink: 'https://harithacalculator.netlify.app/', // Update with the live link if available
         },
         {
             title: 'To do List',
@@ -63,7 +63,7 @@ const Work = () => {
             description: 'The Todo List Project is a simple yet effective web application created using HTML, CSS, and JavaScript, designed to help users organize and manage their daily tasks efficiently. With a clean and intuitive interface, users can easily add, edit, and delete tasks, allowing for seamless task management. The app features a responsive design that ensures a smooth experience across different devices, making it accessible whether on a desktop or mobile. Users can mark tasks as complete, providing a visual representation of their progress and enhancing productivity. This project not only demonstrates the practical application of core web technologies but also offers a valuable tool for individuals seeking to streamline their daily routines.',
             skills: 'Html, Javascript, Css',
             githubLink: 'https://github.com/HarithaKadali9/OIBSIP_Taskno3', // Update with the GitHub link if available
-            liveLink: '/', // Update with the live link if available
+            liveLink: 'https://haritha-to-do-list.netlify.app/', // Update with the live link if available
         },
         {
             title: 'Chat Application',
@@ -71,7 +71,7 @@ const Work = () => {
             description: 'The Console Chat Application is a robust Java-based communication platform that allows multiple clients to connect and interact in real-time. Utilizing socket programming, the server efficiently manages client connections using threads, enabling seamless message broadcasting to all participants. Users can join the chat by providing a username, and their messages are displayed to everyone in the chat room. The application features a straightforward command-line interface, making it accessible for users to engage in discussions without the need for complex setups. By leveraging Java’s networking capabilities, this project exemplifies fundamental concepts of concurrent programming and network communication, providing a practical solution for online chatting.',
             skills: 'Java',
             githubLink: 'https://github.com/HarithaKadali9/ChatApplication', // Update with the GitHub link if available
-            liveLink: '/', // Update with the live link if available
+            liveLink: '#', // Update with the live link if available
         },
         // Add more project objects as needed...
     ];

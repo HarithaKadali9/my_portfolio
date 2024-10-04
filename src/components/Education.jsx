@@ -34,7 +34,7 @@ const Education = () => {
     ];
 
     return (
-        <div >
+        <div id='education' className='z-0'>
             
             <p className='text-4xl  font-bold flex justify-center items-center py-8'>Education</p>
 
@@ -50,7 +50,7 @@ const Education = () => {
                 {studied.map((study, index) => (
                     <div key={study.id} className='p-4 rounded-lg hover:bg-white hover:text-black flex flex-col items-center'>
                         <p className='text-2xl sm:text-xl'>{study.board}</p>
-                        <p className='text-3xl sm:text-2xl font-semibold'>{study.institution}</p>
+                        <p className='text-2xl sm:text-xl font-semibold'>{study.institution}</p>
                         <p>{study.location}</p>
                         <p className='text-2xl sm:text-xl'>{study.branch}</p>
                         <p>{study.year}</p>

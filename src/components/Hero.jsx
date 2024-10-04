@@ -31,8 +31,8 @@ const Hero = () => {
           />
         </h1>
 
-        <p className='text-white sm:text-2xl my-6 lg-text-4xl'>
-          Passionate about developing applications and exploring new things.
+        <p className='text-white md:text-2xl sm:text-xl my-6'>
+          Passionate about developing applications and exploring new technologies!!
         </p>
 
         <div className='my-8 flex flex-row space-x-8'>
@@ -42,17 +42,16 @@ const Hero = () => {
           <a href='https://github.com/HarithaKadali9' target='_blank' rel="noopener noreferrer">
             <FaGithub size={30} />
           </a>
-          {/* Open CodingProfiles in a new tab */}
-          <button onClick={openCodingProfiles}>
+          <a href='https://linktr.ee/harithakadali' target='_blank' rel="noopener noreferrer">
             <FaCode size={30} />
-          </button>
+          </a>          
           <a href='https://www.instagram.com/haritha.kadali' target='_blank' rel="noopener noreferrer">
             <FaInstagram size={30} />
           </a>
         </div>
 
         <div className='my-8'>
-          <a href="/" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-white hover:text-black text-white'>Download CV</a>
+          <a href="https://drive.google.com/file/d/1PtLPxY53ZuEvlD_-0OSvnj9A5gRjJUBM/view?usp=drive_link" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-white hover:text-black text-white'>Download CV</a>
           <a href="#contact" className='px-6 py-3 w-full rounded-xl mr-4 border border-gray-400 hover:bg-white hover:text-black text-white hover:border-none'>Contact</a>
         </div>
       </div>

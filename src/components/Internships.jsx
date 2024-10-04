@@ -8,37 +8,37 @@ const Internships = () => {
       title: 'Frontend Developer',
       company: 'T-Machine Software Solutions',
       duration: '6 months',
-      link: 'https://drive.google.com/file/d/1T6XySiZU3Vm9phIB__bRL-plGbTD5MeJ/view',
+      link: 'https://drive.google.com/file/d/1KQCZoL_mjdK-Mbv0O1grtci4OdPzUg9s/view?usp=sharing',
       description: "As an intern at T-Machine Software Solutions, I specialize in frontend development using React.js, focusing on creating impressive user interfaces for the 'Smart Agile' project. I excel in designing responsive UI components and integrating backend services, collaborating effectively with team members to deliver user-centric solutions that meet project objectives.",
     },
     {
       id: 2,
-      title: 'Full Stack Developer',
+      title: 'Full Stack Web Development',
       company: 'Innovate',
       duration: '4 months',
       link: 'https://drive.google.com/file/d/1HQYPlWVEpBzIV8jBsNkhmAjfqwbK8hIH/view?usp=sharing',
-      description: "As a Full Stack Developer intern at Innovate, I worked on developing both frontend and backend applications, enhancing my skills in various technologies.",
+      description: "As a Full Stack Developer intern at Innovate, I worked on developing both frontend and backend applications, enhancing my skills in various technologies. I collaborated closely with the team to deliver user-centric solutions and contributed to the improvement of application performance and usability.",
     },
     {
       id: 3,
-      title: 'Machine Learning Intern',
+      title: 'Machine Learning',
       company: 'Sri Shasha Prayathi',
       duration: '2 months',
       link: 'https://drive.google.com/file/d/1T6XySiZU3Vm9phIB__bRL-plGbTD5MeJ/view',
-      description: "As a Machine Learning Intern at Sri Shasha Prayathi, I focused on developing algorithms to analyze data and make predictions, working closely with a team to improve model performance.",
+      description: "As a Machine Learning Intern at Sri Shasha Prayathi, I focused on developing algorithms to analyze data and make predictions, working closely with a team to improve model performance. During this internship, I worked on a heart disease prediction project, applying machine learning techniques to enhance diagnostic accuracy.",
     },
     {
       id: 4,
-      title: 'Web Development Intern',
+      title: 'Web Development and Designing',
       company: 'Oasis Infobyte',
       duration: '2 months',
-      link: 'https://drive.google.com/file/d/1T6XySiZU3Vm9phIB__bRL-plGbTD5MeJ/view',
-      description: "During my internship at Oasis Infobyte, I developed several web applications, enhancing my knowledge of web technologies and best practices.",
+      link: 'https://drive.google.com/file/d/1hn2IkAa_xqS8mbvvmvMNgcnASrDBJ0b2/view?usp=sharing',
+      description: "During my internship at Oasis Infobyte, I developed several web applications, enhancing my knowledge of web technologies and best practices. I created a calculator and a to-do list application, demonstrating my ability to build functional and practical tools",
     },
   ];
 
   return (
-    <div className='md:p-10 md:m-16 sm:p-4 sm:m-4 bg-black'>
+    <div className='md:p-10 md:m-16 sm:p-4 sm:m-4 bg-black z-0' id='internships'>
       <h2 className='text-4xl text-center py-6 font-bold text-white'>Internships</h2>
       <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8'>
         {experiences.map((experience) => (

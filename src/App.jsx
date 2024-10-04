@@ -10,6 +10,7 @@ import Footer from './components/Footer.jsx'
 import Coding from './components/Coding.jsx'
 import Education from './components/Education.jsx'
 import Internships from './components/Internships.jsx'
+import Hobbies from './components/Hobbies.jsx'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Internships/>
         <Skills />
         <Work />
+        <Hobbies/>
         <Contact />
         <Footer />
       </div>
