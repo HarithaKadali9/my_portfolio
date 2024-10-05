@@ -30,7 +30,7 @@ function Skills() {
         {['frontend', 'backend', 'programming', 'tools', 'design'].map((tab) => (
           <button 
             key={tab}
-            className={`px-4 py-2 font-semibold text-base sm:text-sm ${activeTab === tab ? 'bg-slate-900 text-white' : 'bg-slate-800 text-gray-400'} hover:bg-slate-600 rounded-lg mx-2 my-1`}
+            className={`px-4 py-2 font-semibold text-base sm:text-sm ${activeTab === tab ? 'bg-white text-black' : 'bg-slate-800 text-gray-400'} hover:bg-slate-600 rounded-lg mx-2 my-1`}
             onClick={() => setActiveTab(tab)}
           >
             {tab.charAt(0).toUpperCase() + tab.slice(1)}
