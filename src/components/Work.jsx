@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaGithub, FaEye, FaArrowRight } from 'react-icons/fa';
-import Attendance from "../assets/Attendance.jpg";
+import Attendance from "../assets/Projects/Attendance.jpg";
 import EatEase from "../assets/Projects/EatEase.png";
 import Translator from "../assets/Projects/Translator.jpg";
 import Calculator from "../assets/Projects/Calculator.jpg";

@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='max-w-[1200px] mx-auto sm:py-20 p-5 z-0' id='contact'>
       <div className='relative w-full h-screen'>
         <ReactPlayer
-          url='src/assets/globe.mp4' // Use the imported video
+          url='assets/globe.mp4' // Use the imported video
           className='absolute top-0 left-0'
           width='100%'
           height='100%'

@@ -26,7 +26,7 @@ const Education = () => {
             id: 3,
             board: "Bachelor's of Technology",
             institution: "Bapatla Engineering College",
-            branch: 'Computer Science and Engineering',
+            branch: 'Computer Science',
             location: 'Bapatla, AP, India',
             year: '2020-2024',
             grade: 'CGPA: 8.9 ',

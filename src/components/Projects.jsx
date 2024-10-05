@@ -76,7 +76,7 @@ function Projects() {
   const activeProject = projects.find(project => `project${project.id}` === activeTab);
 
   return (
-    <div id="projects" className="container mx-auto px-4 py-8 bg-slate-950">
+    <div id="projects" className="container mx-auto px-4 py-8 bg-slate-950 h-full">
       <h2 className="text-2xl font-bold text-white mb-4">Projects</h2>
       <div className="flex justify-center mb-6">
         {projects.map(project => (
