@@ -8,7 +8,7 @@ const Internships = () => {
       title: 'Frontend Developer',
       company: 'T-Machine Software Solutions',
       duration: '6 months',
-      link: 'https://drive.google.com/file/d/1KQCZoL_mjdK-Mbv0O1grtci4OdPzUg9s/view?usp=sharing',
+      link: 'https://drive.google.com/file/d/12Z1IlqtMcw7QjKC7KswJQpNEcoqe1e3n/view?usp=sharing',
       description: "As an intern at T-Machine Software Solutions, I specialize in frontend development using React.js, focusing on creating impressive user interfaces for the 'Smart Agile' project. I excel in designing responsive UI components and integrating backend services, collaborating effectively with team members to deliver user-centric solutions that meet project objectives.",
     },
     {
